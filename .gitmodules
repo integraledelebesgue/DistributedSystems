@@ -1,0 +1,6 @@
+[submodule "Lab1/Lab1/homework/chat"]
+	path = Lab1/Lab1/homework/chat
+	url = https://github.com/integraledelebesgue/SocketChat
+[submodule "Lab1/homework/chat"]
+	path = Lab1/homework/chat
+	url = https://github.com/integraledelebesgue/SocketChat
