@@ -1,0 +1,18 @@
+[package]
+name = "rest-service"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+build_html = "2.4.0"
+derive-error = "0.0.5"
+futures = "0.3.30"
+lazy_static = "1.4.0"
+maud = {version = "0.26.0", features = ["rocket"]}
+reqwest = {version = "0.11.26", features = ["json"]}
+rocket = "0.5.0"
+rocket_dyn_templates = {version = "0.1.0", features = ["handlebars"]}
+serde = { version = "1.0.197", features = ["derive"] }
+serde_json = "1.0.114"
